@@ -1,0 +1,43 @@
+day 1: 55621
+day 2: 2169, 60948
+day 3: 525911, 75805607
+day 4: 23673, 12263631
+[src/day_5/mod.rs:195] &conversion = Conversion {
+    source_start: 4021856000,
+    destination_start: 3184235232,
+    range: 273111296,
+}
+[src/day_5/mod.rs:255] &v = 3409165196
+[src/day_5/mod.rs:255] &v = 3409165196
+[src/day_5/mod.rs:195] &conversion = Conversion {
+    source_start: 3393454292,
+    destination_start: 1239632010,
+    range: 143351805,
+}
+[src/day_5/mod.rs:255] &v = 1255342914
+[src/day_5/mod.rs:195] &conversion = Conversion {
+    source_start: 1208052724,
+    destination_start: 3118371905,
+    range: 389557671,
+}
+[src/day_5/mod.rs:255] &v = 3165662095
+[src/day_5/mod.rs:195] &conversion = Conversion {
+    source_start: 2703807387,
+    destination_start: 3081535248,
+    range: 671456921,
+}
+[src/day_5/mod.rs:255] &v = 3543389956
+[src/day_5/mod.rs:195] &conversion = Conversion {
+    source_start: 3418576738,
+    destination_start: 151982853,
+    range: 142433848,
+}
+[src/day_5/mod.rs:255] &v = 276796071
+[src/day_5/mod.rs:195] &conversion = Conversion {
+    source_start: 270324010,
+    destination_start: 0,
+    range: 44178878,
+}
+[src/day_5/mod.rs:255] &v = 6472061
+[src/day_5/mod.rs:37] test = 6472061
+
