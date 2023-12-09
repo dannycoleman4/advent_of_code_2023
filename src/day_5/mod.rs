@@ -110,22 +110,6 @@ impl Map {
         all_starts
     }
 
-    fn next_start(&self, input: usize) -> Option<usize> {
-        let next = self.conversions.iter()
-            .filter(|x| {
-                x.source_start > input
-            })
-            .min_by(|x, y| x.source_start.cmp(&y.source_start));
-        
-        match next {
-            Some(v) => {
-                Some(v.source_start)
-            }, 
-            None => None
-        }
-
-    }
-
     fn convert(&self, input: usize) -> usize {
         for conversion in self.conversions.iter() {
             if conversion.is_relevant(input) {
