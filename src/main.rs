@@ -8,10 +8,10 @@ mod day_6;
 mod day_7;
 mod day_8;
 mod day_9;
-// mod example8;
+mod day_10;
+// mod example10;
 
 fn main() {
-    // example8::run();
 
     day_1::run();
     day_2::run();
@@ -22,5 +22,7 @@ fn main() {
     day_7::run();
     day_8::run();
     day_9::run();
+    day_10::run();
+    // example10::part2();
 
 }

@@ -91,12 +91,8 @@ impl Nodes {
         // for id in ids.iter_mut() {
         // while ids.iter().find(|x| !x.ends_with("Z")).is_some() {
         for id in ids.iter_mut() {
-            let mut last = 0;
-
             let mut id_steps = 0;
             while !id.ends_with("Z") {
-            // while true {
-
             
                 for direction in directions {
                     id_steps += 1;
@@ -110,10 +106,7 @@ impl Nodes {
                         }
                     }
                     if id.ends_with("Z") {
-                        // println!("{}, {}", id_steps, id_steps - last);
                         steps = least_common_multiple(steps, id_steps);
-                        // println!("{}", steps);
-                        last = id_steps;
                         break
                     }
                 }
@@ -127,7 +120,7 @@ impl Nodes {
 fn greatest_common_denominator(num: usize, den: usize) -> usize {
 
     let mut den = den;
-    let mut num = num;
+    let num = num;
 
     loop {
 
